@@ -1,14 +1,64 @@
+body {
+    margin: 0 auto;
+}
+
 header {
     background-color: #1F2937;
+    padding: 20px 200px 100px 200px;
+}
+nav {
+   display: flex;
+   justify-content: space-between; 
 }
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 700;
+}
+.hlinks {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.header-info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.heading {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 40%;
 }
 h1 {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: extra-bold;
+    margin: 0;
+}
+.heading p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+.heading button {
+    background-color: #3882f6;
+    border: none;
+    color: #fff;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    width: fit-content;
+}
+.heading-image {
+    width: 40%;
+    background-color: rgb(128, 128, 128);
+    border: none;
+    border-radius: 10px;
 }
 
 
